@@ -1,5 +1,5 @@
 # REPO NAME
-REPO DESCRIPTION
+Add commands
 
 ## Install & setup
 To use this repo, a couple of tools are required:
