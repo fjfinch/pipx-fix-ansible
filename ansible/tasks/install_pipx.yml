@@ -1,0 +1,7 @@
+---
+- name: 'install PIPX with PIP'
+  ansible.builtin.pip:
+    name:
+      - pipx
+    break_system_packages: true
+#  become: true

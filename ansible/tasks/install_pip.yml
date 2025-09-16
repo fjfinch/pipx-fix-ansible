@@ -1,0 +1,7 @@
+---
+- name: 'install PIP with APT'
+  ansible.builtin.apt:
+    name:
+      - pip
+    update_cache: true
+  become: true

@@ -1,0 +1,8 @@
+---
+- name: 'uninstall PIPX from APT'
+  ansible.builtin.apt:
+    name:
+      - pipx
+    state: absent
+    autoremove: true
+  become: true
