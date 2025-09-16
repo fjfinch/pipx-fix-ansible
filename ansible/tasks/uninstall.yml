@@ -1,5 +1,5 @@
 ---
-- name: 'uninstall PIPX from APT'
+- name: 'uninstall PIPX (APT)'
   ansible.builtin.apt:
     name:
       - pipx

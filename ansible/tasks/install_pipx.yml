@@ -1,5 +1,5 @@
 ---
-- name: 'install PIPX with PIP'
+- name: 'install PIPX (PIP)'
   ansible.builtin.pip:
     name:
       - pipx
